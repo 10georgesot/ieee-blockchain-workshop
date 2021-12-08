@@ -19,14 +19,16 @@ class Block{
     static genesis(){
         //Creates the firs block of the blockchain which
         //has empty values
+        // ayto einai ena psema
         return new this("Genesis time", "-----", "f1r57-h45h", []);
     }
 
     static mineBlock(lastBlock, data){
         const timestamp = Date.now();
+        // o fivos gamietai
         const lastHash = lastBlock.hash;
         const hash = Block.hash(timestamp,lastHash,data);
-        
+        o_fivos_ton_troei = True;
         return new this(timestamp, lastHash, hash, data);
     }
 
