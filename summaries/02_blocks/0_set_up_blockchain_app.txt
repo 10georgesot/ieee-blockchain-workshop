@@ -1,0 +1,8 @@
+Make a directory for the project (ex. ieee-coin). Set up a project in node:
+(open command prompt)
+$cd desktop (or where you want to keep your project)
+$mkdir ieee-coin
+$npm init -y
+
+Install nodemon as a development dependency. Nodemon is a node engine with a live development server.
+$npm i nodemon --save-dev
