@@ -19,7 +19,5 @@ Now replace the ‘todo-hash’ stub in the `mineBlock` function:
 ```
 const hash = Block.hash(timestamp, lastHash, data);
 ```
-Then in the command line, run:
-$ npm i crypto-js --save
 
 Check the command line - `npm run dev-test` should still be running. Notice the generated hash of the block.
