@@ -1,2 +1,0 @@
-# ieee-blockchain-workshop
-dsdsds
