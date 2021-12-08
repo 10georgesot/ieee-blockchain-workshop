@@ -32,8 +32,6 @@ Add the `test` script. In the “scripts” section of package.json:
 "test": "jest --watchAll",
 ```
 Then in the command line, run:
-$ npm i jest --save-dev
 $ npm run test
 
 If all goes well, you should see two green check marks.
-
