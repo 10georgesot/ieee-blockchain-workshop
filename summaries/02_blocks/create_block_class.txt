@@ -31,7 +31,6 @@ In `package.json`, find the scripts section and add:
 “dev-test”: “nodemon dev-test”
 ````
 Then in the command line, run:
-$ npm init -y
-$ npm i nodemon --save -dev
+$ npm i nodemon --save-dev
 $ npm run dev-test
 
